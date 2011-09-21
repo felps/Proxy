@@ -19,7 +19,7 @@ public class AirportTechnician extends AirportCrew{
 
 	public void inspectAirplane(int airplaneId) {
 		
-		System.out.println("TECHNICsuperIAN: Tech crew is on its way!");
+		System.out.println("TECHNICIAN: Tech crew is on its way!");
 		waitRandomTimeBeforeEvent();
 		
 		this.reportArrival(TECHNICIAN, crewId, airplaneId);
