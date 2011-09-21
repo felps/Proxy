@@ -1,6 +1,6 @@
 package br.usp.ime.ccsl.proxy.roles;
 
-import br.usp.ime.ccsl.proxy.choreography.Enactement;
+import br.usp.ime.ccsl.proxy.choreography.EnactementWithoutWS;
 
 public class AirportTechnician extends AirportCrew{
 
@@ -40,7 +40,7 @@ public class AirportTechnician extends AirportCrew{
 	}
 
 	private void reportToCentral(int incidentCode, int airplaneId) {
-		Enactement.central.dealWithTechnicianSlip(airplaneId,crewId);
+		EnactementWithoutWS.central.dealWithTechnicianSlip(airplaneId,crewId);
 		
 	}
 	

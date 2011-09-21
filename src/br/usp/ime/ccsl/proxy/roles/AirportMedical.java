@@ -1,6 +1,6 @@
 package br.usp.ime.ccsl.proxy.roles;
 
-import br.usp.ime.ccsl.proxy.choreography.Enactement;
+import br.usp.ime.ccsl.proxy.choreography.EnactementWithoutWS;
 
 public class AirportMedical extends AirportCrew{
 	
@@ -24,7 +24,7 @@ public class AirportMedical extends AirportCrew{
 	}
 
 	private void reportTechnicianStatusToCentral() {
-		Enactement.central.reportTechnicianAidedBy(this.crewId);
+		EnactementWithoutWS.central.reportTechnicianAidedBy(this.crewId);
 		
 		
 	}

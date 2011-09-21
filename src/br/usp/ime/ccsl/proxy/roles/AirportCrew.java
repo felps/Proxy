@@ -1,6 +1,6 @@
 package br.usp.ime.ccsl.proxy.roles;
 
-import br.usp.ime.ccsl.proxy.choreography.Enactement;
+import br.usp.ime.ccsl.proxy.choreography.EnactementWithoutWS;
 
 public class AirportCrew {
 	/*
@@ -26,7 +26,7 @@ public class AirportCrew {
 	 */
 	
 	protected void reportArrival(int personnel, int crewId, int airplaneId) {
-		Enactement.central.reportArrival(personnel, crewId, airplaneId);
+		EnactementWithoutWS.central.reportArrival(personnel, crewId, airplaneId);
 		
 	}
 
