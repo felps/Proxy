@@ -1,0 +1,24 @@
+package br.usp.ime.ccsl.proxy.utils;
+
+import java.util.HashMap;
+
+import br.usp.ime.ccsl.proxy.utils.clients.DynamicInvoker;
+
+public class InvocationHandler {
+
+	public static HashMap invokeMethod(String wsdlLocation,
+			String operationName,
+			String portName,
+			String[] args
+	){
+		try {
+			return DynamicInvoker.invokeMethod(wsdlLocation, operationName, null, null, portName, "soap", args, 0);
+		} catch (Exception e) {
+			System.out.println("ERROR: Impossible to request the " + operationName + " operation at " + wsdlLocation + ".");
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+
+}

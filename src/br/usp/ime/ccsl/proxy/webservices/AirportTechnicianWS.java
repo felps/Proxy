@@ -9,7 +9,7 @@ import br.usp.ime.ccsl.proxy.roles.AirportTechnician;
 @WebService
 public class AirportTechnicianWS {
 	
-	private AirportTechnician technician;
+	public AirportTechnician technician;
 	
 	public AirportTechnicianWS(int newTechnicianId) {
 		technician = new AirportTechnician(newTechnicianId);

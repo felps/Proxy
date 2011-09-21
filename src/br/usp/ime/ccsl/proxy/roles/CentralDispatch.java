@@ -4,33 +4,48 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import javax.xml.ws.Endpoint;
+
 import br.usp.ime.ccsl.proxy.utils.*;
 import br.usp.ime.ccsl.proxy.utils.clients.InvocationHandler;
+import br.usp.ime.ccsl.proxy.webservices.AirportMaintenanceWS;
+import br.usp.ime.ccsl.proxy.webservices.AirportMedicalWS;
+import br.usp.ime.ccsl.proxy.webservices.AirportTechnicianWS;
 
 public class CentralDispatch {
 
 	private ArrayList<URL> crew;
 
 	public CentralDispatch() {
+		//TODO: Rename to something like AvailableServices
 		crew = new ArrayList<URL>();
-
+		
 		int ammountOfMedicalCrew = (int) (Math.random()*100);
 		System.out.println("We have "+ ammountOfMedicalCrew + " medics on site");
 
-		for(int i = 0; i < ammountOfMedicalCrew; i++)
-			crew.add((new AirportMedical(i)).serviceURL);
+		for(int i = 0; i < ammountOfMedicalCrew; i++){
+			AirportMedicalWS medic = new AirportMedicalWS(i);
+			crew.add(medic.medic.serviceURL);
+			Endpoint.publish(crew.get(i).toExternalForm(), medic);
+		}
 
 		int ammountOfTechnicianCrew = (int) (Math.random()*100);
 		System.out.println("We have "+ ammountOfTechnicianCrew + " technicians on site");
 
-		for(int i = 0; i < ammountOfTechnicianCrew; i++)
-			crew.add((new AirportTechnician(i)).serviceURL);
+		for(int i = 0; i < ammountOfTechnicianCrew; i++){
+			AirportTechnicianWS techie = new AirportTechnicianWS(i);
+			crew.add(techie.technician.serviceURL);
+			Endpoint.publish(crew.get(i).toExternalForm(), techie);
+		}
 
 		int ammountOfMaintenanceCrew = (int) (Math.random()*100);
 		System.out.println("We have "+ ammountOfMaintenanceCrew + " maintenance crews on site");
 
-		for(int i = 0; i < ammountOfMedicalCrew; i++)
-			crew.add((new AirportMaintenance(i)).serviceURL);
+		for(int i = 0; i < ammountOfMedicalCrew; i++){
+			AirportMaintenanceWS maintenance = new AirportMaintenanceWS(i);
+			crew.add(maintenance.maintenance.serviceURL);
+			Endpoint.publish(crew.get(i).toExternalForm(), maintenance);
+		}
 
 	}
 	/*
@@ -78,12 +93,12 @@ public class CentralDispatch {
 			if(getCrewTypeFromURL(team) == AirportCrew.TECHNICIAN){
 				HashMap map;
 				System.out.println(team.toExternalForm());
-				try {
+				/*try {
 					Thread.sleep(150000);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
-				}
+				}//*/
 				map = InvocationHandler.invoke(team, "isInjured", (new String[] {}));
 				
 				for (Object key : map.keySet()) {

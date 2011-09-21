@@ -8,7 +8,7 @@ import br.usp.ime.ccsl.proxy.roles.AirportMedical;
 @WebService
 public class AirportMedicalWS {
 
-	private AirportMedical medic;
+	public AirportMedical medic;
 	
 	public AirportMedicalWS(int newCrewId) {
 		medic = new AirportMedical(newCrewId);
