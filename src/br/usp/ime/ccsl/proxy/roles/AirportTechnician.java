@@ -27,6 +27,9 @@ public class AirportTechnician extends AirportCrew{
 		this.logActions();
 	}		
 	
+	public boolean isInjured(){
+		return this.injured;
+	}
 	
 	private void logActions() {
 		waitRandomTimeBeforeEvent();

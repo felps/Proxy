@@ -20,5 +20,10 @@ public class AirportTechnicianWS {
 		technician.inspectAirplane(airplaneId);
 	}
 	
+	@WebMethod
+	public boolean isInjured(){
+		return technician.isInjured();
+	}
+	
 	
 }

@@ -2,5 +2,24 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/ant-1_5_1.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/apache_soap-2_3_1.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/axis-1_0.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/axis-1_0-ant.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/commons-discovery.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/jaxrpc-1_1.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/junit-3_8_1.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/log4j-1_2_4.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/optional-1_5_1.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/qname-from-wsdl4j-20021124.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/saaj-1_1.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/servlet-2_2.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/soaprmi-1_1.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/wsdl4j-20021124.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/xercesImpl-2_2_1.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/lib/xmlParserAPIs-2_2_1.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/build/lib/wsif.jar"/>
+	<classpathentry kind="lib" path="/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/wsif-2.0/build/lib/wsif-j2c.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
