@@ -1,5 +1,8 @@
 package br.usp.ime.ccsl.proxy.roles;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+
 import br.usp.ime.ccsl.proxy.choreography.EnactementWithoutWS;
 
 public class AirportCrew {
@@ -20,10 +23,39 @@ public class AirportCrew {
 	 */
 	public int crewId;
 	public int crewType;
+	public URL serviceURL;
 
 	/*
 	 * Parties’ phones inform central system of their arrival
 	 */
+	public void setURL() {
+		String serviceURL;
+		
+		switch (crewType) {
+		case MAINTENANCE: 
+			serviceURL = "http://localhost:9010/maintenance/" + crewId;
+			break;
+				
+		case TECHNICIAN: 
+			serviceURL = "http://localhost:9010/technician/" + crewId;
+			break;
+				     
+		case MEDIC:
+			serviceURL = "http://localhost:9010/medical/" + crewId;
+			break;
+		
+		default:	 
+			System.out.println("ERROR: Unknown CrewType");
+			return;
+		}
+		
+		try {
+			this.serviceURL = new URL(serviceURL);
+		} catch (MalformedURLException e) {
+			System.out.println("Error: Malformed URL:" + serviceURL);
+			e.printStackTrace();
+		}
+	}
 	
 	protected void reportArrival(int personnel, int crewId, int airplaneId) {
 		EnactementWithoutWS.central.reportArrival(personnel, crewId, airplaneId);

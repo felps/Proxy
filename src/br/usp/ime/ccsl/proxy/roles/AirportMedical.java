@@ -7,6 +7,7 @@ public class AirportMedical extends AirportCrew{
 	public AirportMedical(int newCrewId) {
 		this.crewId = newCrewId;
 		this.crewType = MEDIC;
+		this.setURL();
 	}
 
 	public void firstAid(int airplaneId, int injuredPersonnel) {

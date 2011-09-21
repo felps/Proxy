@@ -6,6 +6,7 @@ public class AirportMaintenance extends AirportCrew{
 	public AirportMaintenance(int newCrewId) {
 		this.crewId = newCrewId;
 		this.crewType = MAINTENANCE;
+		this.setURL();
 	}
 
 	public void dealWith(int incidentCode, int airplaneId) {
