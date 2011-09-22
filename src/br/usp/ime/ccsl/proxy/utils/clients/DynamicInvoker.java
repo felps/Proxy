@@ -273,7 +273,7 @@ public class DynamicInvoker {
             }
             found = true;
 
-            //System.err.println("op = "+op);
+            System.err.println("op = "+op);
             Input opInput = op.getInput();
 
             // first determine list of arguments
