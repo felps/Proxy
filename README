@@ -1,0 +1,63 @@
+2011-09-22 18:42:14,693 INFO  [Logger4j] CENTRAL: A new airplane just arrived at gate 43
+2011-09-22 18:42:14,693 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-22 18:42:15,040 INFO  [Logger4j] Dispatching crew http://localhost:9010/technician/0
+2011-09-22 18:42:15,343 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-22 18:42:16,346 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 0 ) arrived on site 43
+2011-09-22 18:42:17,125 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-22 18:42:17,407 INFO  [Logger4j] CENTRAL: Technician 43 slip reported. Taking Actions!
+2011-09-22 18:42:17,409 INFO  [Logger4j] CENTRAL: Technician member was injured and it is not fit for work anymore
+2011-09-22 18:42:17,579 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-22 18:42:18,477 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 0
+2011-09-22 18:42:18,482 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-22 18:42:18,690 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-22 18:42:19,726 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 0
+2011-09-22 18:42:19,734 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-22 18:42:20,146 INFO  [Logger4j] Dispatching crew http://localhost:9010/technician/1
+2011-09-22 18:42:20,369 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-22 18:42:20,639 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 1 ) arrived on site 0
+2011-09-22 18:42:20,776 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-22 18:42:21,022 INFO  [Logger4j] CENTRAL: Technician 0 slip reported. Taking Actions!
+2011-09-22 18:42:21,022 INFO  [Logger4j] CENTRAL: Technician member was injured and it is not fit for work anymore
+2011-09-22 18:42:21,202 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-22 18:42:21,451 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 1
+2011-09-22 18:42:21,456 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-22 18:42:21,650 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-22 18:42:22,612 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 1
+2011-09-22 18:42:22,623 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-22 18:42:23,056 INFO  [Logger4j] Dispatching crew http://localhost:9010/technician/2
+2011-09-22 18:42:23,242 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-22 18:42:23,606 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 2 ) arrived on site 1
+2011-09-22 18:42:24,468 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-22 18:42:24,636 INFO  [Logger4j] CENTRAL: Technician 1 slip reported. Taking Actions!
+2011-09-22 18:42:24,638 INFO  [Logger4j] CENTRAL: Technician member was injured and it is not fit for work anymore
+2011-09-22 18:42:24,781 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-22 18:42:25,854 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 2
+2011-09-22 18:42:25,859 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-22 18:42:26,067 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-22 18:42:27,113 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 2
+2011-09-22 18:42:27,125 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-22 18:42:27,484 INFO  [Logger4j] Dispatching crew http://localhost:9010/technician/3
+2011-09-22 18:42:27,653 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-22 18:42:28,739 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 3 ) arrived on site 2
+2011-09-22 18:42:29,651 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-22 18:42:30,080 INFO  [Logger4j] CENTRAL: Technician 2 slip reported. Taking Actions!
+2011-09-22 18:42:30,080 INFO  [Logger4j] CENTRAL: Technician member was injured and it is not fit for work anymore
+2011-09-22 18:42:30,216 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-22 18:42:30,684 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 3
+2011-09-22 18:42:30,688 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-22 18:42:30,849 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-22 18:42:31,541 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 3
+2011-09-22 18:42:31,571 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-22 18:42:31,956 INFO  [Logger4j] Dispatching crew http://localhost:9010/technician/4
+2011-09-22 18:42:32,122 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-22 18:42:32,573 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 4 ) arrived on site 3
+2011-09-22 18:42:32,945 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-22 18:42:33,072 INFO  [Logger4j] CENTRAL: Technician 3 slip reported. Taking Actions!
+2011-09-22 18:42:33,072 INFO  [Logger4j] CENTRAL: Technician member was injured and it is not fit for work anymore
+2011-09-22 18:42:33,193 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-22 18:42:33,431 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 4
+2011-09-22 18:42:33,439 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-22 18:42:33,585 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-22 18:42:34,058 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 4
+2011-09-22 18:42:34,066 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-22 18:42:34,213 INFO  [Logger4j] CENTRAL: No technicians available!

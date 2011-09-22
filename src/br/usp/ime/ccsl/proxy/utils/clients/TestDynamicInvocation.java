@@ -1,14 +1,9 @@
 package br.usp.ime.ccsl.proxy.utils.clients;
 
-import static org.junit.Assert.*;
-
-import java.util.HashMap;
-
-import org.junit.Test;
 
 public class TestDynamicInvocation {
 
-	@Test
+/*	@Test
 	public void testInvoke() throws Exception {
 		String[] args = new String[]{"http://localhost:9010/hello?wsdl", "greet", "IBM"};
 		DynamicInvoker.main(args);
@@ -27,5 +22,5 @@ public class TestDynamicInvocation {
                 new String[]{"Felps"},
                 3);
 		System.out.println(">>"+map+"<<");
-	}
+	}*/
 }

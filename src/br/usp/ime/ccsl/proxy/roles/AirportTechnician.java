@@ -1,11 +1,15 @@
 package br.usp.ime.ccsl.proxy.roles;
 
-import br.usp.ime.ccsl.proxy.choreography.EnactementWithoutWS;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import br.usp.ime.ccsl.proxy.utils.clients.AsyncInvocationHandler;
+import br.usp.ime.ccsl.proxy.webservices.logs.Logger4j;
 
 public class AirportTechnician extends AirportCrew{
 
 	public int airplaneUnderInspectionId;
-	public boolean injured = false;
+	public String injured = "false";
 	
 	public AirportTechnician(int newTechnicianId) {
 		this.crewId = newTechnicianId;
@@ -19,7 +23,7 @@ public class AirportTechnician extends AirportCrew{
 
 	public void inspectAirplane(int airplaneId) {
 		
-		System.out.println("TECHNICIAN: Tech crew is on its way!");
+		Logger4j.log("TECHNICIAN: Tech crew is on its way!");
 		waitRandomTimeBeforeEvent();
 		
 		this.reportArrival(TECHNICIAN, crewId, airplaneId);
@@ -27,7 +31,7 @@ public class AirportTechnician extends AirportCrew{
 		this.logActions();
 	}		
 	
-	public boolean isInjured(){
+	public String isInjured(){
 		return this.injured;
 	}
 	
@@ -39,12 +43,18 @@ public class AirportTechnician extends AirportCrew{
 	}
 
 	private void identifySlip() {
-		System.out.println("TECHNICIAN: WOOPS!!! Slippery!");
+		Logger4j.log("TECHNICIAN: WOOPS!!! Slippery!");
+		this.injured = "true";
 		this.reportToCentral(SLIP, airplaneUnderInspectionId);
 	}
 
 	private void reportToCentral(int incidentCode, int airplaneId) {
-		EnactementWithoutWS.central.dealWithTechnicianSlip(airplaneId,crewId);
+		try {
+			AsyncInvocationHandler invocation = new AsyncInvocationHandler(new URL("http://localhost:9010/central"), "dealWithTechnicianSlip", new String[] {""+crewId, ""+airplaneId});
+			invocation.run();
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		} 
 		
 	}
 	

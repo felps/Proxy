@@ -3,7 +3,7 @@ package br.usp.ime.ccsl.proxy.roles;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import br.usp.ime.ccsl.proxy.choreography.EnactementWithoutWS;
+import br.usp.ime.ccsl.proxy.utils.clients.AsyncInvocationHandler;
 
 public class AirportCrew {
 	/*
@@ -58,12 +58,20 @@ public class AirportCrew {
 	}
 	
 	protected void reportArrival(int personnel, int crewId, int airplaneId) {
-		EnactementWithoutWS.central.reportArrival(personnel, crewId, airplaneId);
-		
+		//EnactementWithoutWS.central.reportArrival(personnel, crewId, airplaneId);
+		try {
+			AsyncInvocationHandler invoke;
+			invoke = new AsyncInvocationHandler(new URL("http://localhost:9010/central"), "reportArrival", (new String[] {""+personnel, ""+crewId, ""+airplaneId}));
+			invoke.run();
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return;
 	}
 
 	protected void waitRandomTimeBeforeEvent() {
-		int timeBeforeEvent = (int) Math.abs(Math.random()*10000);
+		int timeBeforeEvent = (int) Math.abs(Math.random()*1000);
 		try {
 			Thread.sleep(timeBeforeEvent);
 		} catch (InterruptedException e) {

@@ -1,6 +1,6 @@
 package br.usp.ime.ccsl.proxy.roles;
 
-import br.usp.ime.ccsl.proxy.choreography.EnactementWithoutWS;
+import br.usp.ime.ccsl.proxy.webservices.logs.Logger4j;
 
 public class AirportMedical extends AirportCrew{
 	
@@ -11,7 +11,7 @@ public class AirportMedical extends AirportCrew{
 	}
 
 	public void firstAid(int airplaneId, int injuredPersonnel) {
-		System.out.println("MEDICAL: Crew is on its way");
+		Logger4j.log("MEDICAL: Crew is on its way");
 		waitRandomTimeBeforeEvent();
 		reportArrival(MEDIC, crewId, airplaneId);
 		aidTechnician(airplaneId);
@@ -25,14 +25,14 @@ public class AirportMedical extends AirportCrew{
 	}
 
 	private void reportTechnicianStatusToCentral() {
-		EnactementWithoutWS.central.reportTechnicianAidedBy(this.crewId);
+	//	EnactementWithoutWS.central.reportTechnicianAidedBy(this.crewId);
 		
 		
 	}
 
 	private void performFirstAid() {
 		// Technician taken proper care. First aid applied
-		System.out.println("MEDICAL: Technician taken proper care. First aid applied");
+		Logger4j.log("MEDICAL: Technician taken proper care. First aid applied");
 	}
 
 }

@@ -21,7 +21,7 @@ public class AirportTechnicianWS {
 	}
 	
 	@WebMethod
-	public boolean isInjured(){
+	public String isInjured(){
 		return technician.isInjured();
 	}
 	
