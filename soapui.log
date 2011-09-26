@@ -1,475 +1,715 @@
-2011-09-22 18:42:11,956 WARN  [SoapUI] Missing folder [/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/./ext] for external libraries
-2011-09-22 18:42:11,957 INFO  [DefaultSoapUICore] Creating new settings at [/home/felps/soapui-settings.xml]
-2011-09-22 18:42:13,535 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
-2011-09-22 18:42:13,640 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
-2011-09-22 18:42:13,643 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
-2011-09-22 18:42:13,646 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
-2011-09-22 18:42:13,648 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
-2011-09-22 18:42:13,651 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
-2011-09-22 18:42:13,659 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
-2011-09-22 18:42:13,677 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
-2011-09-22 18:42:13,682 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
-2011-09-22 18:42:13,693 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
-2011-09-22 18:42:13,958 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:13,958 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:13,965 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:14,284 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:14,289 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:14,333 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:14,391 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:14,421 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:14,440 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:14,440 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:14,693 INFO  [Logger4j] CENTRAL: A new airplane just arrived at gate 43
-2011-09-22 18:42:14,693 INFO  [Logger4j] CENTRAL: Technician dispatch
-2011-09-22 18:42:14,792 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/0?wsdl]
-2011-09-22 18:42:14,792 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/0?wsdl
-2011-09-22 18:42:14,796 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/0?xsd=1
-2011-09-22 18:42:14,978 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:14,978 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:14,979 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/0
-2011-09-22 18:42:14,980 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
-2011-09-22 18:42:14,981 INFO  [Soap11HttpBindingImporter] importing operation isInjured
-2011-09-22 18:42:15,040 INFO  [Logger4j] Dispatching crew http://localhost:9010/technician/0
-2011-09-22 18:42:15,116 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/0?wsdl]
-2011-09-22 18:42:15,116 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/0?wsdl
-2011-09-22 18:42:15,121 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/0?xsd=1
-2011-09-22 18:42:15,319 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:15,320 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:15,320 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/0
-2011-09-22 18:42:15,321 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
-2011-09-22 18:42:15,321 INFO  [Soap11HttpBindingImporter] importing operation isInjured
-2011-09-22 18:42:15,343 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
-2011-09-22 18:42:16,224 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:16,224 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:16,228 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:16,324 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:16,324 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:16,326 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:16,326 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:16,327 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:16,327 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:16,327 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:16,346 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 0 ) arrived on site 43
-2011-09-22 18:42:17,125 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
-2011-09-22 18:42:17,250 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:17,250 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:17,258 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:17,376 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:17,385 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:17,386 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:17,387 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:17,387 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:17,387 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:17,388 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:17,407 INFO  [Logger4j] CENTRAL: Technician 43 slip reported. Taking Actions!
-2011-09-22 18:42:17,409 INFO  [Logger4j] CENTRAL: Technician member was injured and it is not fit for work anymore
-2011-09-22 18:42:17,482 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/medical/0?wsdl]
-2011-09-22 18:42:17,482 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?wsdl
-2011-09-22 18:42:17,486 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?xsd=1
-2011-09-22 18:42:17,568 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
-2011-09-22 18:42:17,568 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
-2011-09-22 18:42:17,570 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/medical/0
-2011-09-22 18:42:17,570 INFO  [Soap11HttpBindingImporter] importing operation firstAid
-2011-09-22 18:42:17,579 INFO  [Logger4j] MEDICAL: Crew is on its way
-2011-09-22 18:42:18,366 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:18,366 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:18,371 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:18,444 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:18,462 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:18,463 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:18,464 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:18,464 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:18,464 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:18,465 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:18,477 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 0
-2011-09-22 18:42:18,482 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
-2011-09-22 18:42:18,615 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/maintenance/0?wsdl]
-2011-09-22 18:42:18,615 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?wsdl
-2011-09-22 18:42:18,617 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?xsd=1
-2011-09-22 18:42:18,683 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
-2011-09-22 18:42:18,683 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
-2011-09-22 18:42:18,683 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/maintenance/0
-2011-09-22 18:42:18,684 INFO  [Soap11HttpBindingImporter] importing operation dealWith
-2011-09-22 18:42:18,690 INFO  [Logger4j] MAINTENANCE: Crew is on its way
-2011-09-22 18:42:19,620 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:19,620 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:19,627 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:19,711 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:19,711 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:19,712 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:19,712 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:19,713 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:19,713 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:19,714 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:19,726 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 0
-2011-09-22 18:42:19,734 INFO  [Logger4j] CENTRAL: Technician dispatch
-2011-09-22 18:42:19,843 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/0?wsdl]
-2011-09-22 18:42:19,859 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/0?wsdl
-2011-09-22 18:42:19,863 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/0?xsd=1
-2011-09-22 18:42:19,945 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:19,946 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:19,946 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/0
-2011-09-22 18:42:19,947 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
-2011-09-22 18:42:19,947 INFO  [Soap11HttpBindingImporter] importing operation isInjured
-2011-09-22 18:42:20,064 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/1?wsdl]
-2011-09-22 18:42:20,064 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/1?wsdl
-2011-09-22 18:42:20,066 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/1?xsd=1
-2011-09-22 18:42:20,129 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:20,129 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:20,130 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/1
-2011-09-22 18:42:20,131 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
-2011-09-22 18:42:20,131 INFO  [Soap11HttpBindingImporter] importing operation isInjured
-2011-09-22 18:42:20,146 INFO  [Logger4j] Dispatching crew http://localhost:9010/technician/1
-2011-09-22 18:42:20,258 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/1?wsdl]
-2011-09-22 18:42:20,259 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/1?wsdl
-2011-09-22 18:42:20,261 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/1?xsd=1
-2011-09-22 18:42:20,357 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:20,357 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:20,359 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/1
-2011-09-22 18:42:20,359 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
-2011-09-22 18:42:20,359 INFO  [Soap11HttpBindingImporter] importing operation isInjured
-2011-09-22 18:42:20,369 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
-2011-09-22 18:42:20,543 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:20,546 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:20,550 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:20,622 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:20,622 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:20,624 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:20,624 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:20,625 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:20,627 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:20,627 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:20,639 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 1 ) arrived on site 0
-2011-09-22 18:42:20,776 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
-2011-09-22 18:42:20,917 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:20,917 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:20,921 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:21,002 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:21,002 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:21,003 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:21,003 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:21,003 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:21,004 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:21,004 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:21,022 INFO  [Logger4j] CENTRAL: Technician 0 slip reported. Taking Actions!
-2011-09-22 18:42:21,022 INFO  [Logger4j] CENTRAL: Technician member was injured and it is not fit for work anymore
-2011-09-22 18:42:21,102 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/medical/0?wsdl]
-2011-09-22 18:42:21,102 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?wsdl
-2011-09-22 18:42:21,105 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?xsd=1
-2011-09-22 18:42:21,191 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
-2011-09-22 18:42:21,191 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
-2011-09-22 18:42:21,192 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/medical/0
-2011-09-22 18:42:21,192 INFO  [Soap11HttpBindingImporter] importing operation firstAid
-2011-09-22 18:42:21,202 INFO  [Logger4j] MEDICAL: Crew is on its way
-2011-09-22 18:42:21,343 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:21,344 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:21,348 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:21,425 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:21,425 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:21,429 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:21,432 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:21,433 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:21,433 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:21,433 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:21,451 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 1
-2011-09-22 18:42:21,456 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
-2011-09-22 18:42:21,577 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/maintenance/0?wsdl]
-2011-09-22 18:42:21,583 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?wsdl
-2011-09-22 18:42:21,585 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?xsd=1
-2011-09-22 18:42:21,641 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
-2011-09-22 18:42:21,641 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
-2011-09-22 18:42:21,642 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/maintenance/0
-2011-09-22 18:42:21,643 INFO  [Soap11HttpBindingImporter] importing operation dealWith
-2011-09-22 18:42:21,650 INFO  [Logger4j] MAINTENANCE: Crew is on its way
-2011-09-22 18:42:22,320 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:22,321 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:22,324 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:22,552 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:22,585 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:22,588 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:22,590 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:22,590 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:22,591 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:22,591 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:22,612 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 1
-2011-09-22 18:42:22,623 INFO  [Logger4j] CENTRAL: Technician dispatch
-2011-09-22 18:42:22,730 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/1?wsdl]
-2011-09-22 18:42:22,743 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/1?wsdl
-2011-09-22 18:42:22,747 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/1?xsd=1
-2011-09-22 18:42:22,822 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:22,824 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:22,826 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/1
-2011-09-22 18:42:22,830 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
-2011-09-22 18:42:22,833 INFO  [Soap11HttpBindingImporter] importing operation isInjured
-2011-09-22 18:42:22,966 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/2?wsdl]
-2011-09-22 18:42:22,973 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/2?wsdl
-2011-09-22 18:42:22,975 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/2?xsd=1
-2011-09-22 18:42:23,035 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:23,036 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:23,036 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/2
-2011-09-22 18:42:23,037 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
-2011-09-22 18:42:23,037 INFO  [Soap11HttpBindingImporter] importing operation isInjured
-2011-09-22 18:42:23,056 INFO  [Logger4j] Dispatching crew http://localhost:9010/technician/2
-2011-09-22 18:42:23,163 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/2?wsdl]
-2011-09-22 18:42:23,164 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/2?wsdl
-2011-09-22 18:42:23,166 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/2?xsd=1
-2011-09-22 18:42:23,233 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:23,233 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:23,233 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/2
-2011-09-22 18:42:23,234 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
-2011-09-22 18:42:23,234 INFO  [Soap11HttpBindingImporter] importing operation isInjured
-2011-09-22 18:42:23,242 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
-2011-09-22 18:42:23,508 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:23,508 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:23,511 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:23,575 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:23,594 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:23,595 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:23,595 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:23,596 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:23,596 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:23,596 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:23,606 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 2 ) arrived on site 1
-2011-09-22 18:42:24,468 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
-2011-09-22 18:42:24,544 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:24,555 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:24,557 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:24,623 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:24,623 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:24,624 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:24,624 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:24,624 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:24,625 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:24,625 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:24,636 INFO  [Logger4j] CENTRAL: Technician 1 slip reported. Taking Actions!
-2011-09-22 18:42:24,638 INFO  [Logger4j] CENTRAL: Technician member was injured and it is not fit for work anymore
-2011-09-22 18:42:24,705 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/medical/0?wsdl]
-2011-09-22 18:42:24,706 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?wsdl
-2011-09-22 18:42:24,713 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?xsd=1
-2011-09-22 18:42:24,771 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
-2011-09-22 18:42:24,771 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
-2011-09-22 18:42:24,773 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/medical/0
-2011-09-22 18:42:24,773 INFO  [Soap11HttpBindingImporter] importing operation firstAid
-2011-09-22 18:42:24,781 INFO  [Logger4j] MEDICAL: Crew is on its way
-2011-09-22 18:42:25,785 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:25,785 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:25,789 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:25,833 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:25,833 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:25,835 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:25,835 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:25,835 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:25,836 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:25,836 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:25,854 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 2
-2011-09-22 18:42:25,859 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
-2011-09-22 18:42:25,975 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/maintenance/0?wsdl]
-2011-09-22 18:42:25,975 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?wsdl
-2011-09-22 18:42:25,978 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?xsd=1
-2011-09-22 18:42:26,058 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
-2011-09-22 18:42:26,058 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
-2011-09-22 18:42:26,059 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/maintenance/0
-2011-09-22 18:42:26,060 INFO  [Soap11HttpBindingImporter] importing operation dealWith
-2011-09-22 18:42:26,067 INFO  [Logger4j] MAINTENANCE: Crew is on its way
-2011-09-22 18:42:27,038 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:27,038 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:27,040 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:27,100 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:27,100 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:27,101 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:27,102 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:27,102 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:27,102 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:27,103 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:27,113 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 2
-2011-09-22 18:42:27,125 INFO  [Logger4j] CENTRAL: Technician dispatch
-2011-09-22 18:42:27,234 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/2?wsdl]
-2011-09-22 18:42:27,237 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/2?wsdl
-2011-09-22 18:42:27,241 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/2?xsd=1
-2011-09-22 18:42:27,304 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:27,305 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:27,308 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/2
-2011-09-22 18:42:27,310 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
-2011-09-22 18:42:27,312 INFO  [Soap11HttpBindingImporter] importing operation isInjured
-2011-09-22 18:42:27,432 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/3?wsdl]
-2011-09-22 18:42:27,432 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/3?wsdl
-2011-09-22 18:42:27,434 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/3?xsd=1
-2011-09-22 18:42:27,472 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:27,472 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:27,473 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/3
-2011-09-22 18:42:27,473 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
-2011-09-22 18:42:27,474 INFO  [Soap11HttpBindingImporter] importing operation isInjured
-2011-09-22 18:42:27,484 INFO  [Logger4j] Dispatching crew http://localhost:9010/technician/3
-2011-09-22 18:42:27,576 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/3?wsdl]
-2011-09-22 18:42:27,603 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/3?wsdl
-2011-09-22 18:42:27,605 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/3?xsd=1
-2011-09-22 18:42:27,639 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:27,639 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:27,640 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/3
-2011-09-22 18:42:27,640 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
-2011-09-22 18:42:27,641 INFO  [Soap11HttpBindingImporter] importing operation isInjured
-2011-09-22 18:42:27,653 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
-2011-09-22 18:42:28,686 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:28,688 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:28,691 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:28,728 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:28,728 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:28,728 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:28,729 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:28,729 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:28,730 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:28,730 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:28,739 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 3 ) arrived on site 2
-2011-09-22 18:42:29,651 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
-2011-09-22 18:42:30,033 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:30,033 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:30,035 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:30,069 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:30,069 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:30,070 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:30,070 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:30,070 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:30,070 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:30,071 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:30,080 INFO  [Logger4j] CENTRAL: Technician 2 slip reported. Taking Actions!
-2011-09-22 18:42:30,080 INFO  [Logger4j] CENTRAL: Technician member was injured and it is not fit for work anymore
-2011-09-22 18:42:30,137 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/medical/0?wsdl]
-2011-09-22 18:42:30,137 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?wsdl
-2011-09-22 18:42:30,139 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?xsd=1
-2011-09-22 18:42:30,208 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
-2011-09-22 18:42:30,208 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
-2011-09-22 18:42:30,209 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/medical/0
-2011-09-22 18:42:30,209 INFO  [Soap11HttpBindingImporter] importing operation firstAid
-2011-09-22 18:42:30,216 INFO  [Logger4j] MEDICAL: Crew is on its way
-2011-09-22 18:42:30,622 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:30,622 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:30,624 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:30,652 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:30,666 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:30,668 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:30,668 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:30,668 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:30,669 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:30,669 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:30,684 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 3
-2011-09-22 18:42:30,688 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
-2011-09-22 18:42:30,790 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/maintenance/0?wsdl]
-2011-09-22 18:42:30,791 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?wsdl
-2011-09-22 18:42:30,793 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?xsd=1
-2011-09-22 18:42:30,840 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
-2011-09-22 18:42:30,840 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
-2011-09-22 18:42:30,841 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/maintenance/0
-2011-09-22 18:42:30,841 INFO  [Soap11HttpBindingImporter] importing operation dealWith
-2011-09-22 18:42:30,849 INFO  [Logger4j] MAINTENANCE: Crew is on its way
-2011-09-22 18:42:31,485 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:31,485 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:31,488 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:31,529 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:31,529 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:31,530 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:31,530 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:31,530 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:31,531 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:31,531 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:31,541 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 3
-2011-09-22 18:42:31,571 INFO  [Logger4j] CENTRAL: Technician dispatch
-2011-09-22 18:42:31,672 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/3?wsdl]
-2011-09-22 18:42:31,672 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/3?wsdl
-2011-09-22 18:42:31,674 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/3?xsd=1
-2011-09-22 18:42:31,739 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:31,739 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:31,739 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/3
-2011-09-22 18:42:31,739 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
-2011-09-22 18:42:31,740 INFO  [Soap11HttpBindingImporter] importing operation isInjured
-2011-09-22 18:42:31,863 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/4?wsdl]
-2011-09-22 18:42:31,871 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/4?wsdl
-2011-09-22 18:42:31,875 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/4?xsd=1
-2011-09-22 18:42:31,919 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:31,921 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:31,922 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/4
-2011-09-22 18:42:31,925 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
-2011-09-22 18:42:31,928 INFO  [Soap11HttpBindingImporter] importing operation isInjured
-2011-09-22 18:42:31,956 INFO  [Logger4j] Dispatching crew http://localhost:9010/technician/4
-2011-09-22 18:42:32,067 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/4?wsdl]
-2011-09-22 18:42:32,067 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/4?wsdl
-2011-09-22 18:42:32,069 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/4?xsd=1
-2011-09-22 18:42:32,112 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:32,113 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:32,113 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/4
-2011-09-22 18:42:32,114 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
-2011-09-22 18:42:32,114 INFO  [Soap11HttpBindingImporter] importing operation isInjured
-2011-09-22 18:42:32,122 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
-2011-09-22 18:42:32,529 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:32,529 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:32,531 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:32,560 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:32,560 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:32,561 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:32,562 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:32,562 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:32,562 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:32,563 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:32,573 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 4 ) arrived on site 3
-2011-09-22 18:42:32,945 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
-2011-09-22 18:42:33,016 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:33,016 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:33,018 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:33,060 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:33,060 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:33,060 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:33,061 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:33,061 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:33,061 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:33,062 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:33,072 INFO  [Logger4j] CENTRAL: Technician 3 slip reported. Taking Actions!
-2011-09-22 18:42:33,072 INFO  [Logger4j] CENTRAL: Technician member was injured and it is not fit for work anymore
-2011-09-22 18:42:33,130 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/medical/0?wsdl]
-2011-09-22 18:42:33,153 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?wsdl
-2011-09-22 18:42:33,155 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?xsd=1
-2011-09-22 18:42:33,184 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
-2011-09-22 18:42:33,185 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
-2011-09-22 18:42:33,185 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/medical/0
-2011-09-22 18:42:33,186 INFO  [Soap11HttpBindingImporter] importing operation firstAid
-2011-09-22 18:42:33,193 INFO  [Logger4j] MEDICAL: Crew is on its way
-2011-09-22 18:42:33,377 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:33,377 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:33,380 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:33,414 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:33,414 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:33,415 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:33,415 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:33,416 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:33,416 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:33,416 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:33,431 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 4
-2011-09-22 18:42:33,439 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
-2011-09-22 18:42:33,546 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/maintenance/0?wsdl]
-2011-09-22 18:42:33,546 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?wsdl
-2011-09-22 18:42:33,550 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?xsd=1
-2011-09-22 18:42:33,580 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
-2011-09-22 18:42:33,580 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
-2011-09-22 18:42:33,580 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/maintenance/0
-2011-09-22 18:42:33,580 INFO  [Soap11HttpBindingImporter] importing operation dealWith
-2011-09-22 18:42:33,585 INFO  [Logger4j] MAINTENANCE: Crew is on its way
-2011-09-22 18:42:34,007 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
-2011-09-22 18:42:34,007 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
-2011-09-22 18:42:34,009 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
-2011-09-22 18:42:34,046 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:34,046 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
-2011-09-22 18:42:34,046 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
-2011-09-22 18:42:34,047 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
-2011-09-22 18:42:34,047 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
-2011-09-22 18:42:34,047 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
-2011-09-22 18:42:34,048 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
-2011-09-22 18:42:34,058 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 4
-2011-09-22 18:42:34,066 INFO  [Logger4j] CENTRAL: Technician dispatch
-2011-09-22 18:42:34,164 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/4?wsdl]
-2011-09-22 18:42:34,164 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/4?wsdl
-2011-09-22 18:42:34,165 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/4?xsd=1
-2011-09-22 18:42:34,199 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:34,202 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
-2011-09-22 18:42:34,203 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/4
-2011-09-22 18:42:34,203 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
-2011-09-22 18:42:34,204 INFO  [Soap11HttpBindingImporter] importing operation isInjured
-2011-09-22 18:42:34,213 INFO  [Logger4j] CENTRAL: No technicians available!
+2011-09-23 14:54:35,766 WARN  [SoapUI] Missing folder [/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/./ext] for external libraries
+2011-09-23 14:54:35,767 INFO  [DefaultSoapUICore] Creating new settings at [/home/felps/soapui-settings.xml]
+2011-09-23 14:54:37,577 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2011-09-23 14:54:37,742 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2011-09-23 14:54:37,757 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2011-09-23 14:54:37,760 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2011-09-23 14:54:37,762 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2011-09-23 14:54:37,763 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2011-09-23 14:54:37,767 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2011-09-23 14:54:37,801 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2011-09-23 14:54:37,815 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2011-09-23 14:54:37,837 INFO  [SchemaUtils] Added default schema from file:/home/felps/Dropbox/Doutorado/Tese/workspace/AirportUseCase/.git/soapui-4.0.1/bin/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2011-09-23 14:54:38,115 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:38,115 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:38,122 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:38,487 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:38,493 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:38,546 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:38,606 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:38,640 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:38,641 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:38,642 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:38,928 INFO  [Logger4j] CENTRAL: A new airplane just arrived at gate 43
+2011-09-23 14:54:38,929 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-23 14:54:39,022 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/0?wsdl]
+2011-09-23 14:54:39,023 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/0?wsdl
+2011-09-23 14:54:39,028 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/0?xsd=1
+2011-09-23 14:54:39,237 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:39,237 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:39,239 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/0
+2011-09-23 14:54:39,240 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
+2011-09-23 14:54:39,241 INFO  [Soap11HttpBindingImporter] importing operation isInjured
+2011-09-23 14:54:39,303 INFO  [Logger4j] Dispatching crew http://localhost:9010/technician/0
+2011-09-23 14:54:39,398 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/0?wsdl]
+2011-09-23 14:54:39,399 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/0?wsdl
+2011-09-23 14:54:39,402 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/0?xsd=1
+2011-09-23 14:54:39,601 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:39,601 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:39,602 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/0
+2011-09-23 14:54:39,602 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
+2011-09-23 14:54:39,603 INFO  [Soap11HttpBindingImporter] importing operation isInjured
+2011-09-23 14:54:39,622 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-23 14:54:40,679 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:40,679 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:40,687 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:40,801 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:40,801 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:40,803 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:40,803 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:40,804 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:40,804 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:40,805 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:40,805 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:40,893 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-23 14:54:41,075 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:41,077 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:41,083 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:41,298 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:41,299 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:41,300 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:41,301 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:41,302 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:41,302 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:41,303 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:41,322 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 0 ) arrived on site 43
+2011-09-23 14:54:41,928 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-23 14:54:42,023 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:42,023 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:42,028 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:42,146 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:42,146 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:42,147 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:42,148 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:42,148 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:42,149 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:42,149 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:42,150 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:42,171 INFO  [Logger4j] PROXY [CENTRAL]: Invoking dealWithTechnicianSlip at http://localhost:9010/central/0
+2011-09-23 14:54:42,277 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:42,277 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:42,281 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:42,381 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:42,381 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:42,382 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:42,382 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:42,383 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:42,383 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:42,383 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:42,399 INFO  [Logger4j] CENTRAL: Technician 43 slip reported. Taking Actions!
+2011-09-23 14:54:42,399 INFO  [Logger4j] CENTRAL: Technician member was injured and it is not fit for work anymore
+2011-09-23 14:54:42,494 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/medical/0?wsdl]
+2011-09-23 14:54:42,495 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?wsdl
+2011-09-23 14:54:42,498 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?xsd=1
+2011-09-23 14:54:42,583 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
+2011-09-23 14:54:42,584 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
+2011-09-23 14:54:42,585 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/medical/0
+2011-09-23 14:54:42,585 INFO  [Soap11HttpBindingImporter] importing operation firstAid
+2011-09-23 14:54:42,609 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-23 14:54:43,590 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:43,590 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:43,593 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:43,692 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:43,692 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:43,693 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:43,694 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:43,695 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:43,695 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:43,695 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:43,696 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:43,722 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-23 14:54:43,797 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:43,797 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:43,799 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:43,889 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:43,889 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:43,890 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:43,891 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:43,891 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:43,892 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:43,892 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:43,909 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 0
+2011-09-23 14:54:43,919 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-23 14:54:44,034 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/maintenance/0?wsdl]
+2011-09-23 14:54:44,034 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?wsdl
+2011-09-23 14:54:44,036 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?xsd=1
+2011-09-23 14:54:44,120 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
+2011-09-23 14:54:44,120 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
+2011-09-23 14:54:44,121 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/maintenance/0
+2011-09-23 14:54:44,121 INFO  [Soap11HttpBindingImporter] importing operation dealWith
+2011-09-23 14:54:44,130 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-23 14:54:44,444 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:44,445 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:44,449 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:44,544 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:44,544 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:44,545 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:44,546 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:44,546 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:44,546 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:44,547 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:44,547 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:44,565 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-23 14:54:44,663 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:44,664 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:44,667 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:44,750 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:44,750 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:44,751 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:44,752 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:44,752 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:44,753 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:44,753 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:44,766 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 0
+2011-09-23 14:54:44,778 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-23 14:54:44,912 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/0?wsdl]
+2011-09-23 14:54:44,913 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/0?wsdl
+2011-09-23 14:54:44,916 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/0?xsd=1
+2011-09-23 14:54:45,008 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:45,009 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:45,009 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/0
+2011-09-23 14:54:45,009 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
+2011-09-23 14:54:45,010 INFO  [Soap11HttpBindingImporter] importing operation isInjured
+2011-09-23 14:54:45,138 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/1?wsdl]
+2011-09-23 14:54:45,138 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/1?wsdl
+2011-09-23 14:54:45,141 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/1?xsd=1
+2011-09-23 14:54:45,223 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:45,223 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:45,224 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/1
+2011-09-23 14:54:45,224 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
+2011-09-23 14:54:45,225 INFO  [Soap11HttpBindingImporter] importing operation isInjured
+2011-09-23 14:54:45,240 INFO  [Logger4j] Dispatching crew http://localhost:9010/technician/1
+2011-09-23 14:54:45,347 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/1?wsdl]
+2011-09-23 14:54:45,356 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/1?wsdl
+2011-09-23 14:54:45,359 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/1?xsd=1
+2011-09-23 14:54:45,474 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:45,474 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:45,476 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/1
+2011-09-23 14:54:45,477 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
+2011-09-23 14:54:45,478 INFO  [Soap11HttpBindingImporter] importing operation isInjured
+2011-09-23 14:54:45,488 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-23 14:54:46,842 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:46,842 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:46,845 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:46,928 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:46,928 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:46,929 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:46,930 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:46,930 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:46,930 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:46,931 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:46,931 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:46,952 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-23 14:54:47,050 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:47,050 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:47,054 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:47,134 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:47,135 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:47,136 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:47,137 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:47,137 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:47,138 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:47,138 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:47,152 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 1 ) arrived on site 0
+2011-09-23 14:54:47,837 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-23 14:54:47,953 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:47,953 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:47,956 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:48,102 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:48,102 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:48,103 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:48,103 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:48,104 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:48,104 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:48,105 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:48,105 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:48,120 INFO  [Logger4j] PROXY [CENTRAL]: Invoking dealWithTechnicianSlip at http://localhost:9010/central/0
+2011-09-23 14:54:48,233 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:48,233 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:48,236 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:48,323 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:48,323 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:48,324 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:48,325 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:48,325 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:48,326 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:48,326 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:48,340 INFO  [Logger4j] CENTRAL: Technician 0 slip reported. Taking Actions!
+2011-09-23 14:54:48,341 INFO  [Logger4j] CENTRAL: Technician member was injured and it is not fit for work anymore
+2011-09-23 14:54:48,432 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/medical/0?wsdl]
+2011-09-23 14:54:48,432 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?wsdl
+2011-09-23 14:54:48,435 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?xsd=1
+2011-09-23 14:54:48,557 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
+2011-09-23 14:54:48,557 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
+2011-09-23 14:54:48,559 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/medical/0
+2011-09-23 14:54:48,559 INFO  [Soap11HttpBindingImporter] importing operation firstAid
+2011-09-23 14:54:48,567 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-23 14:54:48,902 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:48,903 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:48,909 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:49,049 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:49,049 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:49,049 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:49,050 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:49,050 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:49,051 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:49,051 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:49,051 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:49,078 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-23 14:54:49,173 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:49,173 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:49,182 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:49,286 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:49,287 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:49,288 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:49,288 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:49,289 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:49,289 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:49,289 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:49,315 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 1
+2011-09-23 14:54:49,323 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-23 14:54:49,432 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/maintenance/0?wsdl]
+2011-09-23 14:54:49,432 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?wsdl
+2011-09-23 14:54:49,455 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?xsd=1
+2011-09-23 14:54:49,525 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
+2011-09-23 14:54:49,525 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
+2011-09-23 14:54:49,526 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/maintenance/0
+2011-09-23 14:54:49,526 INFO  [Soap11HttpBindingImporter] importing operation dealWith
+2011-09-23 14:54:49,544 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-23 14:54:50,059 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:50,059 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:50,068 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:50,175 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:50,175 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:50,176 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:50,176 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:50,177 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:50,177 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:50,178 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:50,178 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:50,198 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-23 14:54:50,285 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:50,296 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:50,299 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:50,420 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:50,420 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:50,421 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:50,421 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:50,422 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:50,422 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:50,422 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:50,442 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 1
+2011-09-23 14:54:50,453 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-23 14:54:50,559 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/1?wsdl]
+2011-09-23 14:54:50,567 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/1?wsdl
+2011-09-23 14:54:50,570 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/1?xsd=1
+2011-09-23 14:54:50,654 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:50,654 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:50,655 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/1
+2011-09-23 14:54:50,655 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
+2011-09-23 14:54:50,656 INFO  [Soap11HttpBindingImporter] importing operation isInjured
+2011-09-23 14:54:50,790 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/2?wsdl]
+2011-09-23 14:54:50,790 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/2?wsdl
+2011-09-23 14:54:50,793 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/2?xsd=1
+2011-09-23 14:54:50,849 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:50,849 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:50,850 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/2
+2011-09-23 14:54:50,850 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
+2011-09-23 14:54:50,851 INFO  [Soap11HttpBindingImporter] importing operation isInjured
+2011-09-23 14:54:50,874 INFO  [Logger4j] Dispatching crew http://localhost:9010/technician/2
+2011-09-23 14:54:51,004 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/2?wsdl]
+2011-09-23 14:54:51,006 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/2?wsdl
+2011-09-23 14:54:51,009 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/2?xsd=1
+2011-09-23 14:54:51,082 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:51,082 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:51,082 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/2
+2011-09-23 14:54:51,083 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
+2011-09-23 14:54:51,083 INFO  [Soap11HttpBindingImporter] importing operation isInjured
+2011-09-23 14:54:51,092 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-23 14:54:51,807 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:51,808 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:51,810 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:51,860 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:51,861 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:51,863 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:51,864 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:51,866 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:51,867 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:51,868 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:51,869 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:51,883 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-23 14:54:51,968 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:51,968 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:51,972 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:52,058 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:52,058 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:52,060 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:52,060 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:52,061 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:52,061 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:52,061 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:52,075 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 2 ) arrived on site 1
+2011-09-23 14:54:52,431 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-23 14:54:52,513 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:52,513 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:52,515 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:52,570 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:52,570 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:52,571 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:52,571 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:52,571 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:52,572 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:52,572 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:52,573 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:52,584 INFO  [Logger4j] PROXY [CENTRAL]: Invoking dealWithTechnicianSlip at http://localhost:9010/central/0
+2011-09-23 14:54:52,664 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:52,664 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:52,667 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:52,786 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:52,787 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:52,787 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:52,788 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:52,788 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:52,788 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:52,789 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:52,799 INFO  [Logger4j] CENTRAL: Technician 1 slip reported. Taking Actions!
+2011-09-23 14:54:52,799 INFO  [Logger4j] CENTRAL: Technician member was injured and it is not fit for work anymore
+2011-09-23 14:54:52,869 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/medical/0?wsdl]
+2011-09-23 14:54:52,869 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?wsdl
+2011-09-23 14:54:52,871 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?xsd=1
+2011-09-23 14:54:52,980 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
+2011-09-23 14:54:52,989 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
+2011-09-23 14:54:52,990 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/medical/0
+2011-09-23 14:54:52,991 INFO  [Soap11HttpBindingImporter] importing operation firstAid
+2011-09-23 14:54:52,998 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-23 14:54:53,730 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:53,730 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:53,733 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:53,780 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:53,781 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:53,782 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:53,782 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:53,783 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:53,783 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:53,784 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:53,784 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:53,802 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-23 14:54:53,872 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:53,872 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:53,874 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:53,937 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:53,937 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:53,938 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:53,938 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:53,939 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:53,939 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:53,939 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:53,951 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 2
+2011-09-23 14:54:53,959 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-23 14:54:54,078 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/maintenance/0?wsdl]
+2011-09-23 14:54:54,079 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?wsdl
+2011-09-23 14:54:54,082 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?xsd=1
+2011-09-23 14:54:54,133 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
+2011-09-23 14:54:54,134 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
+2011-09-23 14:54:54,136 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/maintenance/0
+2011-09-23 14:54:54,136 INFO  [Soap11HttpBindingImporter] importing operation dealWith
+2011-09-23 14:54:54,150 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-23 14:54:55,154 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:55,154 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:55,157 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:55,188 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:55,188 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:55,189 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:55,189 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:55,190 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:55,190 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:55,191 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:55,191 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:55,203 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-23 14:54:55,266 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:55,266 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:55,268 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:55,325 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:55,326 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:55,326 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:55,326 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:55,327 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:55,327 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:55,327 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:55,335 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 2
+2011-09-23 14:54:55,345 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-23 14:54:55,446 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/2?wsdl]
+2011-09-23 14:54:55,446 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/2?wsdl
+2011-09-23 14:54:55,448 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/2?xsd=1
+2011-09-23 14:54:55,483 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:55,484 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:55,484 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/2
+2011-09-23 14:54:55,484 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
+2011-09-23 14:54:55,485 INFO  [Soap11HttpBindingImporter] importing operation isInjured
+2011-09-23 14:54:55,589 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/3?wsdl]
+2011-09-23 14:54:55,589 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/3?wsdl
+2011-09-23 14:54:55,593 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/3?xsd=1
+2011-09-23 14:54:55,682 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:55,682 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:55,683 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/3
+2011-09-23 14:54:55,683 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
+2011-09-23 14:54:55,683 INFO  [Soap11HttpBindingImporter] importing operation isInjured
+2011-09-23 14:54:55,717 INFO  [Logger4j] Dispatching crew http://localhost:9010/technician/3
+2011-09-23 14:54:55,807 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/3?wsdl]
+2011-09-23 14:54:55,807 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/3?wsdl
+2011-09-23 14:54:55,810 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/3?xsd=1
+2011-09-23 14:54:55,838 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:55,838 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:55,839 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/3
+2011-09-23 14:54:55,839 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
+2011-09-23 14:54:55,839 INFO  [Soap11HttpBindingImporter] importing operation isInjured
+2011-09-23 14:54:55,846 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-23 14:54:56,617 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:56,618 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:56,620 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:56,656 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:56,656 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:56,657 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:56,658 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:56,658 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:56,658 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:56,659 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:56,659 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:56,670 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-23 14:54:56,758 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:56,758 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:56,761 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:56,804 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:56,805 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:56,805 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:56,806 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:56,806 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:56,807 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:56,807 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:56,817 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 3 ) arrived on site 2
+2011-09-23 14:54:57,330 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-23 14:54:57,394 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:57,394 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:57,396 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:57,443 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:57,443 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:57,444 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:57,444 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:57,445 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:57,445 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:57,446 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:57,446 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:57,457 INFO  [Logger4j] PROXY [CENTRAL]: Invoking dealWithTechnicianSlip at http://localhost:9010/central/0
+2011-09-23 14:54:57,535 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:57,535 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:57,538 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:57,580 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:57,580 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:57,581 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:57,581 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:57,582 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:57,582 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:57,583 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:57,593 INFO  [Logger4j] CENTRAL: Technician 2 slip reported. Taking Actions!
+2011-09-23 14:54:57,594 INFO  [Logger4j] CENTRAL: Technician member was injured and it is not fit for work anymore
+2011-09-23 14:54:57,685 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/medical/0?wsdl]
+2011-09-23 14:54:57,686 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?wsdl
+2011-09-23 14:54:57,689 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?xsd=1
+2011-09-23 14:54:57,735 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
+2011-09-23 14:54:57,735 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
+2011-09-23 14:54:57,737 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/medical/0
+2011-09-23 14:54:57,737 INFO  [Soap11HttpBindingImporter] importing operation firstAid
+2011-09-23 14:54:57,747 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-23 14:54:57,875 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:57,875 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:57,877 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:58,067 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:58,068 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:58,069 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:58,069 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:58,070 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:58,070 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:58,071 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:58,071 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:58,174 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-23 14:54:58,261 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:58,264 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:58,267 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:58,323 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:58,350 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:58,351 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:58,352 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:58,352 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:58,353 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:58,353 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:58,373 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 3
+2011-09-23 14:54:58,383 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-23 14:54:58,489 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/maintenance/0?wsdl]
+2011-09-23 14:54:58,489 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?wsdl
+2011-09-23 14:54:58,491 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?xsd=1
+2011-09-23 14:54:58,522 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
+2011-09-23 14:54:58,523 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
+2011-09-23 14:54:58,523 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/maintenance/0
+2011-09-23 14:54:58,524 INFO  [Soap11HttpBindingImporter] importing operation dealWith
+2011-09-23 14:54:58,530 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-23 14:54:59,094 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:59,095 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:59,097 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:59,128 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:59,128 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:59,129 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:59,129 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:59,129 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:59,130 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:59,130 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:59,130 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:59,141 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-23 14:54:59,206 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:54:59,206 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:54:59,210 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:54:59,257 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:59,287 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:54:59,288 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:54:59,288 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:59,288 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:59,289 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:59,289 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:59,299 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 3
+2011-09-23 14:54:59,308 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-23 14:54:59,409 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/3?wsdl]
+2011-09-23 14:54:59,410 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/3?wsdl
+2011-09-23 14:54:59,412 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/3?xsd=1
+2011-09-23 14:54:59,446 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:59,446 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:59,447 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/3
+2011-09-23 14:54:59,447 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
+2011-09-23 14:54:59,447 INFO  [Soap11HttpBindingImporter] importing operation isInjured
+2011-09-23 14:54:59,579 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/4?wsdl]
+2011-09-23 14:54:59,579 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/4?wsdl
+2011-09-23 14:54:59,581 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/4?xsd=1
+2011-09-23 14:54:59,612 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:59,613 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:59,613 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/4
+2011-09-23 14:54:59,614 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
+2011-09-23 14:54:59,614 INFO  [Soap11HttpBindingImporter] importing operation isInjured
+2011-09-23 14:54:59,624 INFO  [Logger4j] Dispatching crew http://localhost:9010/technician/4
+2011-09-23 14:54:59,718 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/4?wsdl]
+2011-09-23 14:54:59,718 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/4?wsdl
+2011-09-23 14:54:59,729 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/4?xsd=1
+2011-09-23 14:54:59,766 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:59,766 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:54:59,767 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/4
+2011-09-23 14:54:59,767 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
+2011-09-23 14:54:59,768 INFO  [Soap11HttpBindingImporter] importing operation isInjured
+2011-09-23 14:54:59,775 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-23 14:54:59,885 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:54:59,885 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:54:59,888 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:54:59,921 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:59,922 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:54:59,922 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:54:59,923 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:54:59,923 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:54:59,924 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:54:59,924 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:54:59,924 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:54:59,935 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-23 14:55:00,009 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:55:00,009 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:55:00,011 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:55:00,049 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:55:00,049 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:55:00,049 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:55:00,050 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:55:00,050 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:55:00,051 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:55:00,051 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:55:00,061 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 4 ) arrived on site 3
+2011-09-23 14:55:00,913 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-23 14:55:00,985 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:55:00,985 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:55:00,987 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:55:01,021 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:55:01,021 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:55:01,022 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:55:01,022 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:55:01,023 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:55:01,023 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:55:01,023 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:55:01,024 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:55:01,038 INFO  [Logger4j] PROXY [CENTRAL]: Invoking dealWithTechnicianSlip at http://localhost:9010/central/0
+2011-09-23 14:55:01,115 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:55:01,120 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:55:01,122 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:55:01,179 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:55:01,180 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:55:01,180 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:55:01,181 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:55:01,181 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:55:01,181 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:55:01,182 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:55:01,191 INFO  [Logger4j] CENTRAL: Technician 3 slip reported. Taking Actions!
+2011-09-23 14:55:01,192 INFO  [Logger4j] CENTRAL: Technician member was injured and it is not fit for work anymore
+2011-09-23 14:55:01,257 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/medical/0?wsdl]
+2011-09-23 14:55:01,262 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?wsdl
+2011-09-23 14:55:01,265 INFO  [SchemaUtils] Getting schema http://localhost:9010/medical/0?xsd=1
+2011-09-23 14:55:01,327 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
+2011-09-23 14:55:01,327 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMedicalWSPortBinding
+2011-09-23 14:55:01,329 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/medical/0
+2011-09-23 14:55:01,329 INFO  [Soap11HttpBindingImporter] importing operation firstAid
+2011-09-23 14:55:01,337 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-23 14:55:02,380 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:55:02,381 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:55:02,382 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:55:02,416 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:55:02,430 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:55:02,431 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:55:02,432 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:55:02,432 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:55:02,432 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:55:02,433 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:55:02,433 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:55:02,457 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-23 14:55:02,522 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:55:02,522 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:55:02,534 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:55:02,597 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:55:02,597 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:55:02,598 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:55:02,598 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:55:02,599 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:55:02,599 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:55:02,599 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:55:02,610 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 4
+2011-09-23 14:55:02,621 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-23 14:55:02,732 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/maintenance/0?wsdl]
+2011-09-23 14:55:02,732 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?wsdl
+2011-09-23 14:55:02,735 INFO  [SchemaUtils] Getting schema http://localhost:9010/maintenance/0?xsd=1
+2011-09-23 14:55:02,798 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
+2011-09-23 14:55:02,798 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportMaintenanceWSPortBinding
+2011-09-23 14:55:02,799 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/maintenance/0
+2011-09-23 14:55:02,799 INFO  [Soap11HttpBindingImporter] importing operation dealWith
+2011-09-23 14:55:02,805 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-23 14:55:03,063 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central?wsdl]
+2011-09-23 14:55:03,063 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?wsdl
+2011-09-23 14:55:03,065 INFO  [SchemaUtils] Getting schema http://localhost:9010/central?xsd=1
+2011-09-23 14:55:03,095 INFO  [WsdlImporter] Finding importer for {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:55:03,095 INFO  [WsdlImporter] Importing binding {http://proxies.webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSProxyPortBinding
+2011-09-23 14:55:03,099 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central
+2011-09-23 14:55:03,099 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:55:03,100 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:55:03,100 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:55:03,100 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:55:03,100 INFO  [Soap11HttpBindingImporter] importing operation useService
+2011-09-23 14:55:03,108 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-23 14:55:03,168 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/central/0?wsdl]
+2011-09-23 14:55:03,182 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?wsdl
+2011-09-23 14:55:03,185 INFO  [SchemaUtils] Getting schema http://localhost:9010/central/0?xsd=1
+2011-09-23 14:55:03,236 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:55:03,236 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}CentralDispatchWSPortBinding
+2011-09-23 14:55:03,237 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/central/0
+2011-09-23 14:55:03,237 INFO  [Soap11HttpBindingImporter] importing operation airplaneArrival
+2011-09-23 14:55:03,237 INFO  [Soap11HttpBindingImporter] importing operation dealWithTechnicianSlip
+2011-09-23 14:55:03,238 INFO  [Soap11HttpBindingImporter] importing operation reportArrival
+2011-09-23 14:55:03,238 INFO  [Soap11HttpBindingImporter] importing operation reportTechnicianAided
+2011-09-23 14:55:03,247 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 4
+2011-09-23 14:55:03,258 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-23 14:55:03,370 INFO  [SchemaUtils] Loading schema types from [http://localhost:9010/technician/4?wsdl]
+2011-09-23 14:55:03,370 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/4?wsdl
+2011-09-23 14:55:03,378 INFO  [SchemaUtils] Getting schema http://localhost:9010/technician/4?xsd=1
+2011-09-23 14:55:03,406 INFO  [WsdlImporter] Finding importer for {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:55:03,406 INFO  [WsdlImporter] Importing binding {http://webservices.proxy.ccsl.ime.usp.br/}AirportTechnicianWSPortBinding
+2011-09-23 14:55:03,406 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:9010/technician/4
+2011-09-23 14:55:03,407 INFO  [Soap11HttpBindingImporter] importing operation inspectAirplane
+2011-09-23 14:55:03,407 INFO  [Soap11HttpBindingImporter] importing operation isInjured
+2011-09-23 14:55:03,416 INFO  [Logger4j] CENTRAL: No technicians available!
