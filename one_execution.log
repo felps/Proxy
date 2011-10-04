@@ -1,0 +1,176 @@
+2011-09-28 15:30:40,566 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:30:40,729 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-28 15:31:46,926 INFO  [Logger4j] PROXY [CENTRAL]: Invoking airplaneArrival at http://localhost:9010/central/0
+2011-09-28 15:31:47,196 INFO  [Logger4j] CENTRAL: A new airplane just arrived at gate 43
+2011-09-28 15:31:47,196 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-28 15:31:47,486 INFO  [Logger4j] Proxy: Technician -- inspectAirplane
+2011-09-28 15:31:47,486 INFO  [Logger4j] Proxy: Technician -- currentWs:http://localhost:9010/technician/0
+2011-09-28 15:31:47,672 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-28 15:31:48,524 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:31:48,715 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 0 ) arrived on site 43
+2011-09-28 15:31:48,783 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-28 15:31:48,964 INFO  [Logger4j] PROXY [CENTRAL]: Invoking dealWithTechnicianSlip at http://localhost:9010/central/0
+2011-09-28 15:31:49,142 INFO  [Logger4j] CENTRAL: Technician 43 slip reported. Taking Actions!
+2011-09-28 15:31:49,142 INFO  [Logger4j] CENTRAL: Technician member 43 was injured and it is not fit for work anymore
+2011-09-28 15:31:49,297 INFO  [Logger4j] PROXY: Web Service Provider at http://localhost:9011/technician reported as offline
+2011-09-28 15:31:49,303 INFO  [Logger4j] CENTRAL: Medical dispatch
+2011-09-28 15:31:49,633 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-28 15:31:50,506 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:31:50,641 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:31:50,647 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-28 15:31:50,653 INFO  [Logger4j] CENTRAL: Maintenance dispatch
+2011-09-28 15:31:50,939 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-28 15:31:51,764 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:31:51,887 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:31:51,899 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-28 15:31:52,131 INFO  [Logger4j] Proxy: Technician -- inspectAirplane
+2011-09-28 15:31:52,131 INFO  [Logger4j] Proxy: Technician -- currentWs:http://localhost:9010/technician/0
+2011-09-28 15:31:52,278 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-28 15:31:53,039 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:31:53,154 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:31:53,525 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-28 15:31:53,692 INFO  [Logger4j] PROXY [CENTRAL]: Invoking dealWithTechnicianSlip at http://localhost:9010/central/0
+2011-09-28 15:31:53,821 INFO  [Logger4j] CENTRAL: Technician 0 slip reported. Taking Actions!
+2011-09-28 15:31:53,821 INFO  [Logger4j] CENTRAL: Technician member 0 was injured and it is not fit for work anymore
+2011-09-28 15:31:53,953 INFO  [Logger4j] PROXY: Web Service Provider at http://localhost:9011/technician reported as offline
+2011-09-28 15:31:53,957 INFO  [Logger4j] CENTRAL: Medical dispatch
+2011-09-28 15:31:54,231 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-28 15:31:54,571 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:31:54,687 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:31:54,692 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-28 15:31:54,696 INFO  [Logger4j] CENTRAL: Maintenance dispatch
+2011-09-28 15:31:55,057 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-28 15:31:55,468 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:31:55,583 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:31:55,596 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-28 15:31:55,757 INFO  [Logger4j] Proxy: Technician -- inspectAirplane
+2011-09-28 15:31:55,757 INFO  [Logger4j] Proxy: Technician -- currentWs:http://localhost:9010/technician/0
+2011-09-28 15:31:55,874 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-28 15:31:56,038 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:31:56,179 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:31:56,925 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-28 15:31:57,046 INFO  [Logger4j] PROXY [CENTRAL]: Invoking dealWithTechnicianSlip at http://localhost:9010/central/0
+2011-09-28 15:31:57,166 INFO  [Logger4j] CENTRAL: Technician 0 slip reported. Taking Actions!
+2011-09-28 15:31:57,166 INFO  [Logger4j] CENTRAL: Technician member 0 was injured and it is not fit for work anymore
+2011-09-28 15:31:57,326 INFO  [Logger4j] PROXY: Web Service Provider at http://localhost:9011/technician reported as offline
+2011-09-28 15:31:57,329 INFO  [Logger4j] CENTRAL: Medical dispatch
+2011-09-28 15:31:57,598 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-28 15:31:58,057 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:31:58,171 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:31:58,178 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-28 15:31:58,183 INFO  [Logger4j] CENTRAL: Maintenance dispatch
+2011-09-28 15:31:58,450 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-28 15:31:59,374 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:31:59,470 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:31:59,483 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-28 15:31:59,640 INFO  [Logger4j] Proxy: Technician -- inspectAirplane
+2011-09-28 15:31:59,640 INFO  [Logger4j] Proxy: Technician -- currentWs:http://localhost:9010/technician/0
+2011-09-28 15:31:59,738 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-28 15:32:00,351 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:00,445 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:01,301 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-28 15:32:01,406 INFO  [Logger4j] PROXY [CENTRAL]: Invoking dealWithTechnicianSlip at http://localhost:9010/central/0
+2011-09-28 15:32:01,502 INFO  [Logger4j] CENTRAL: Technician 0 slip reported. Taking Actions!
+2011-09-28 15:32:01,502 INFO  [Logger4j] CENTRAL: Technician member 0 was injured and it is not fit for work anymore
+2011-09-28 15:32:01,604 INFO  [Logger4j] PROXY: Web Service Provider at http://localhost:9011/technician reported as offline
+2011-09-28 15:32:01,608 INFO  [Logger4j] CENTRAL: Medical dispatch
+2011-09-28 15:32:01,819 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-28 15:32:02,887 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:02,988 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:02,994 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-28 15:32:03,040 INFO  [Logger4j] CENTRAL: Maintenance dispatch
+2011-09-28 15:32:03,244 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-28 15:32:03,576 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:03,673 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:03,724 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-28 15:32:03,871 INFO  [Logger4j] Proxy: Technician -- inspectAirplane
+2011-09-28 15:32:03,871 INFO  [Logger4j] Proxy: Technician -- currentWs:http://localhost:9010/technician/0
+2011-09-28 15:32:03,961 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-28 15:32:04,229 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:04,312 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:04,802 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-28 15:32:04,894 INFO  [Logger4j] PROXY [CENTRAL]: Invoking dealWithTechnicianSlip at http://localhost:9010/central/0
+2011-09-28 15:32:04,974 INFO  [Logger4j] CENTRAL: Technician 0 slip reported. Taking Actions!
+2011-09-28 15:32:04,974 INFO  [Logger4j] CENTRAL: Technician member 0 was injured and it is not fit for work anymore
+2011-09-28 15:32:05,112 INFO  [Logger4j] PROXY: Web Service Provider at http://localhost:9011/technician reported as offline
+2011-09-28 15:32:05,117 INFO  [Logger4j] CENTRAL: Medical dispatch
+2011-09-28 15:32:05,333 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-28 15:32:06,241 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:06,333 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:06,339 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-28 15:32:06,421 INFO  [Logger4j] CENTRAL: Maintenance dispatch
+2011-09-28 15:32:06,622 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-28 15:32:06,782 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:06,865 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:06,988 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-28 15:32:07,119 INFO  [Logger4j] Proxy: Technician -- inspectAirplane
+2011-09-28 15:32:07,120 INFO  [Logger4j] Proxy: Technician -- currentWs:http://localhost:9010/technician/0
+2011-09-28 15:32:07,198 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-28 15:32:07,361 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:07,451 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:08,351 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-28 15:32:08,443 INFO  [Logger4j] PROXY [CENTRAL]: Invoking dealWithTechnicianSlip at http://localhost:9010/central/0
+2011-09-28 15:32:08,523 INFO  [Logger4j] CENTRAL: Technician 0 slip reported. Taking Actions!
+2011-09-28 15:32:08,523 INFO  [Logger4j] CENTRAL: Technician member 0 was injured and it is not fit for work anymore
+2011-09-28 15:32:08,615 INFO  [Logger4j] PROXY: Web Service Provider at http://localhost:9011/technician reported as offline
+2011-09-28 15:32:08,617 INFO  [Logger4j] CENTRAL: Medical dispatch
+2011-09-28 15:32:08,809 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-28 15:32:09,794 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:09,887 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:09,929 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-28 15:32:10,008 INFO  [Logger4j] CENTRAL: Maintenance dispatch
+2011-09-28 15:32:10,214 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-28 15:32:10,485 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:10,636 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:10,759 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-28 15:32:10,888 INFO  [Logger4j] Proxy: Technician -- inspectAirplane
+2011-09-28 15:32:10,888 INFO  [Logger4j] Proxy: Technician -- currentWs:http://localhost:9010/technician/0
+2011-09-28 15:32:10,973 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-28 15:32:11,199 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:11,279 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:11,451 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-28 15:32:11,586 INFO  [Logger4j] PROXY [CENTRAL]: Invoking dealWithTechnicianSlip at http://localhost:9010/central/0
+2011-09-28 15:32:11,669 INFO  [Logger4j] CENTRAL: Technician 0 slip reported. Taking Actions!
+2011-09-28 15:32:11,669 INFO  [Logger4j] CENTRAL: Technician member 0 was injured and it is not fit for work anymore
+2011-09-28 15:32:11,756 INFO  [Logger4j] PROXY: Web Service Provider at http://localhost:9011/technician reported as offline
+2011-09-28 15:32:11,797 INFO  [Logger4j] CENTRAL: Medical dispatch
+2011-09-28 15:32:12,001 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-28 15:32:12,463 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:12,542 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:12,625 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-28 15:32:12,705 INFO  [Logger4j] CENTRAL: Maintenance dispatch
+2011-09-28 15:32:12,912 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-28 15:32:13,219 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:13,301 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:13,465 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-28 15:32:13,596 INFO  [Logger4j] Proxy: Technician -- inspectAirplane
+2011-09-28 15:32:13,596 INFO  [Logger4j] Proxy: Technician -- currentWs:http://localhost:9010/technician/0
+2011-09-28 15:32:13,671 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-28 15:32:14,572 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:14,646 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:15,280 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-28 15:32:15,380 INFO  [Logger4j] PROXY [CENTRAL]: Invoking dealWithTechnicianSlip at http://localhost:9010/central/0
+2011-09-28 15:32:15,525 INFO  [Logger4j] CENTRAL: Technician 0 slip reported. Taking Actions!
+2011-09-28 15:32:15,525 INFO  [Logger4j] CENTRAL: Technician member 0 was injured and it is not fit for work anymore
+2011-09-28 15:32:15,610 INFO  [Logger4j] PROXY: Web Service Provider at http://localhost:9011/technician reported as offline
+2011-09-28 15:32:15,650 INFO  [Logger4j] CENTRAL: Medical dispatch
+2011-09-28 15:32:15,861 INFO  [Logger4j] MEDICAL: Crew is on its way
+2011-09-28 15:32:16,267 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:16,349 INFO  [Logger4j] CENTRAL: MedicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:16,391 INFO  [Logger4j] MEDICAL: Technician taken proper care. First aid applied
+2011-09-28 15:32:16,436 INFO  [Logger4j] CENTRAL: Maintenance dispatch
+2011-09-28 15:32:16,648 INFO  [Logger4j] MAINTENANCE: Crew is on its way
+2011-09-28 15:32:16,802 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:16,886 INFO  [Logger4j] CENTRAL: MaintenanceCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:17,014 INFO  [Logger4j] CENTRAL: Technician dispatch
+2011-09-28 15:32:17,151 INFO  [Logger4j] Proxy: Technician -- inspectAirplane
+2011-09-28 15:32:17,151 INFO  [Logger4j] Proxy: Technician -- currentWs:http://localhost:9010/technician/0
+2011-09-28 15:32:17,230 INFO  [Logger4j] TECHNICIAN: Tech crew is on its way!
+2011-09-28 15:32:17,654 INFO  [Logger4j] PROXY [CENTRAL]: Invoking reportArrival at http://localhost:9010/central/0
+2011-09-28 15:32:17,735 INFO  [Logger4j] CENTRAL: TechnicCrew ( Id 0 ) arrived on site 0
+2011-09-28 15:32:18,699 INFO  [Logger4j] TECHNICIAN: WOOPS!!! Slippery!
+2011-09-28 15:32:18,788 INFO  [Logger4j] PROXY [CENTRAL]: Invoking dealWithTechnicianSlip at http://localhost:9010/central/0
+2011-09-28 15:32:18,867 INFO  [Logger4j] CENTRAL: Technician 0 slip reported. Taking Actions!
+2011-09-28 15:32:18,867 INFO  [Logger4j] CENTRAL: Technician member 0 was injured and it is not fit for work anymore
+2011-09-28 15:32:18,967 INFO  [Logger4j] PROXY: Web Service Provider at http://localhost:9011/technician reported as offline
+2011-09-28 15:32:18,970 INFO  [Logger4j] CENTRAL: Me
